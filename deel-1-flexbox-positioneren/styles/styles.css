@@ -1,1 +1,96 @@
 /*Schrijf hier jouw CSS*/
+
+
+.opdracht-1-deel-1-ul {
+    display:flex;
+    flex-direction:row;
+    /* border: 3px dashed #1A293A;*/
+    justify-content: space-between;
+
+}
+
+.opdracht-2 {
+    /* border: 3px dashed #1A293A;*/
+}
+
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-2 ul li{
+    flex-basis:33%;
+}
+
+.opdracht-3{
+    border: 3px dashed #1A293A;
+}
+.opdracht-3 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:100%;
+    border: 3px dashed #1A293A;
+}
+
+.opdracht-3-li1{
+    align-self: flex-start;
+}
+
+.opdracht-3-li2{
+    align-self: center;
+}
+
+.opdracht-3-li3{
+    align-self: flex-end;
+}
+
+.opdracht-4{
+    border: 3px dashed #1A293A;
+}
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap:10px;
+    column-gap:10px;
+}
+
+
+.opdracht-5{
+    border: 3px dashed #1A293A;
+}
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border: 3px dashed yellow;
+}
+
+.opdracht-5 ul {
+    display:flex;
+    flex-direction: column;
+    border: 3px dashed purple;
+    justify-content:space-between;
+    gap: 20px;
+}
+
+.opdracht-5-li1{
+    align-self:flex-start;
+}
+
+.opdracht-5-li2 {
+    align-self: center;
+}
+
+.opdracht-5-li3 {
+    align-self:flex-end;
+
+}
+
+
+
+
+
+

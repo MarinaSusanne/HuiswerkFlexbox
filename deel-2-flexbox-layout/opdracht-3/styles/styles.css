@@ -1,1 +1,67 @@
 /*Schrijf hier jouw CSS*/
+
+.body-opdracht3{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    border: 2px dashed green;
+    flex-basis: 100vh;
+    width:100%; /* of 100vw */
+}
+
+.col-1-nav-opdr3 {
+    height: 100vh;
+    border: 2px dashed yellow;
+    flex-basis: 20%;
+    flex-shrink:0;
+    flex-grow:0;
+}
+
+
+.col-2-opdr3{
+    display:flex;
+    flex-direction:column;
+    flex-basis:80%;
+    border: 2px dashed blue;
+    height:100vh;
+    flex-shrink:1;
+    flex-grow:1;
+}
+
+.header-opdracht3{
+    flex-basis:15vh;
+    border: 2px dashed greenyellow;
+    flex-shrink:0;
+    flex-grow:0;
+}
+
+.main-opdracht3{
+    display:flex;
+    flex-direction:row;
+    border: 2px dashed purple;
+    flex-basis:auto;
+    height:70vh;
+}
+
+.article-opdracht3{
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-basis:80%;
+    flex-shrink:1;
+    flex-grow:1;
+}
+
+.aside-opdracht3{
+    border: 2px dashed orange;
+    flex-basis:20%;
+    flex-grow:0;
+    flex-shrink:0;
+}
+/* ondanks een shrink en grow van nul, groeit en krimpt mijn aside wel...*/
+
+.footer-opdracht3 {
+    flex-basis: 15vh;
+    border: 2px dashed deeppink;
+    flex-shrink:0;
+    flex-grow:0;
+}

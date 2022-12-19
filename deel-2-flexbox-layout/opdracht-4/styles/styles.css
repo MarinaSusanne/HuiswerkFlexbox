@@ -1,1 +1,72 @@
 /*Schrijf hier jouw CSS*/
+
+.body-opdracht4{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    border: 2px dashed green;
+    flex-basis: 100vh;
+    width:100%; /* of 100vw */
+}
+
+.outer-col-1 {
+    height: 100vh;
+    border: 2px dashed yellow;
+    flex-basis: 300px;
+    flex-shrink:0;
+    flex-grow:0;
+}
+/* klopt het dat shrink en grow alleen werkt als de basis een getal is en niet een percentage?*/
+
+.outer-col-2{
+    display:flex;
+    flex-direction:column;
+    flex-basis:80%;
+    border: 2px dashed blue;
+    height:100vh;
+    flex-shrink:1;
+    flex-grow:1;
+}
+
+.header-opdracht4{
+    flex-basis:20vh;
+    border: 2px dashed greenyellow;
+    flex-shrink:0;
+    flex-grow:0;
+}
+
+.inner-row{
+    display:flex;
+    flex-direction:row;
+    flex-basis:1500px;
+    height:80vh;
+}
+
+.aside-opdracht4{
+    border: 2px dashed orange;
+    flex-basis:250px; /* ipv 20% */
+    flex-grow:0;
+    flex-shrink:0;
+}
+/* klopt het dat shrink en grow alleen werkt als de basis een getal is en niet een percentage?*/
+
+.inner-col{
+    display:flex;
+    flex-direction: column;
+    border: 2px dashed darkolivegreen;
+}
+
+.article-opdracht4{
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-basis:90%;
+    flex-shrink:1;
+    flex-grow:1;
+}
+
+.footer-opdracht4 {
+    flex-basis: 10%;
+    border: 2px dashed deeppink;
+    flex-shrink:0;
+    flex-grow:0;
+}

@@ -1,1 +1,52 @@
 /*Schrijf hier jouw CSS*/
+
+.body-opdracht2{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    border: 2px dashed green;
+    flex-basis: 100vh;
+    width:100%; /* of 100vw */
+}
+
+.col-1-nav {
+    height: 100vh;
+    border: 2px dashed yellow;
+    flex-basis: 20%;
+    flex-shrink:0;
+    flex-grow:0;
+}
+
+
+.col-2{
+    display:flex;
+    flex-direction:column;
+    flex-basis:80%;
+    border: 2px dashed blue;
+    height:100vh;
+    flex-shrink:1;
+    flex-grow:1;
+}
+
+.header-opdracht2{
+    flex-basis:15vh;
+    border: 2px dashed greenyellow;
+    flex-shrink:0;
+    flex-grow:0;
+}
+
+.article-opdracht2{
+    border: 2px dashed purple;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-basis:70vh;
+    flex-shrink:1;
+    flex-grow:1;
+}
+
+.footer-opdracht2 {
+    flex-basis: 15vh;
+    border: 2px dashed deeppink;
+    flex-shrink:0;
+    flex-grow:0;
+}
