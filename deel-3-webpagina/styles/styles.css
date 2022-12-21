@@ -24,6 +24,7 @@ li{
 
 .analytics{
     align-items: flex-start;
+    justify-content: flex-end;
 }
 
 .ul-header{
