@@ -8,7 +8,7 @@
 }
 
 .header-footer-opdracht5{
-    flex-basis:10vh;
+    flex-basis:65px;
     border: 2px dashed greenyellow;
     flex-shrink:0;
     flex-grow:0;
@@ -32,8 +32,8 @@
 }
 
 .nav-opdracht5{
-    /* flex-basis:200px;ipv 15vh*/
-    flex-basis:20vw;
+    /* flex-basis:300px;ipv 15vh*/
+    flex-basis:300px;
     order:1;
     border: 2px dashed darkgreen;
     flex-shrink:0;
@@ -41,8 +41,8 @@
 }
 
 .aside-opdracht5{
-    /* flex-basis:200px;ipv 15vh*/
-    flex-basis:20vw;
+    /* flex-basis:300px;ipv 15vh, dus een px getal ipv een verhouding*/
+    flex-basis:300px;
     order:3;
     border: 2px dashed darkred;
     flex-shrink:0;

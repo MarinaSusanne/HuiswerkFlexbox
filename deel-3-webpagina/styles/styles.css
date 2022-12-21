@@ -1,1 +1,68 @@
-/*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,400&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    background-color:#F2F3D9;
+    color:black;
+    }
+
+.Header{
+    background-color:#030027;
+    color:white;
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size:20px;
+}
+li{
+    align-items: flex-end;
+}
+
+.analytics{
+    align-items: flex-start;
+}
+
+.ul-header{
+    display:flex;
+    flex-direction: row;
+}
+
+.h1{
+    font-size:40px;
+    text-align: center;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.h3{
+    font-size:30px;
+    text-align: center;
+    margin-bottom:90px;
+}
+
+.threeBlocks{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex:1;
+    }
+
+.div{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    max-width:280px;
+    height:350px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size:17px;
+    border-radius: 3%;
+    background-color:#C16E70;
+    color:black;
+    vertical-align: center;
+}
+
